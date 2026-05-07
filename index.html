@@ -20,7 +20,7 @@
             src="assets/hero-photo.png"
             alt="JOURNEY OPEN DAY 1DAY留学 小学1〜6年生対象 英語を学ぶから使うへ"
           />
-          <a class="hero__hotspot" href="#form" aria-label="参加日を選んで申し込む"></a>
+          <a class="hero__hotspot" href="#application-schedule" aria-label="参加日を選んで申し込む"></a>
         </section>
 
         <section class="empathy" aria-labelledby="empathy-title">
@@ -32,107 +32,110 @@
           />
         </section>
 
-        <section class="section intro" aria-labelledby="intro-title">
-          <p class="section-kicker">JOURNEY OPEN DAY</p>
-          <h2 id="intro-title">1DAY留学とは</h2>
-          <p>
-            JOURNEYの空間で、海外の先生や仲間と英語を使いながら過ごす1日体験です。
-            ゲーム、クラフト、発表、ミッションを通して「伝わった！」という小さな成功体験を重ねます。
-          </p>
-          <div class="stamp-row" aria-hidden="true">
-            <span>HELLO</span>
-            <span>TRY</span>
-            <span>SPEAK</span>
-          </div>
+        <section class="intro-visual" aria-labelledby="intro-title">
+          <h2 id="intro-title" class="sr-only">JOURNEY OPEN DAY 1DAY留学とは</h2>
+          <img
+            class="intro-visual__design"
+            src="assets/intro-section.svg"
+            alt="JOURNEYは英語を使う環境をご用意しています。英語のみで過ごす、テーマ型アクティビティ、子ども同士の交流。"
+          />
         </section>
 
-        <section class="section recommend" aria-labelledby="recommend-title">
-          <p class="section-kicker">Recommended</p>
-          <h2 id="recommend-title">こんなお子さまにおすすめ</h2>
-          <ul class="check-list">
-            <li>英語に興味はあるけれど、話す自信はまだ少ない</li>
-            <li>海外や異文化にふれるきっかけがほしい</li>
-            <li>初めての場所でも、少人数で安心して参加したい</li>
-            <li>英語を「勉強」ではなく「体験」として楽しみたい</li>
-          </ul>
+        <section class="recommend-visual" aria-labelledby="recommend-title">
+          <h2 id="recommend-title" class="sr-only">こんなお子さまにおすすめ</h2>
+          <img
+            class="recommend-visual__design"
+            src="assets/recommend-section.svg"
+            alt="こんなお子さまにおすすめ。英語を話す自信をつけたい、海外や異文化にふれたい、安心して英語を体験したいお子さまへ。"
+          />
         </section>
 
-        <section class="section experience" aria-labelledby="experience-title">
-          <p class="section-kicker">Activity</p>
-          <h2 id="experience-title">体験できること</h2>
-          <div class="activity-grid">
-            <article>
-              <span>01</span>
-              <h3>English Mission</h3>
-              <p>英語の指示を聞いて、仲間とミッションに挑戦。</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Creative Workshop</h3>
-              <p>作る・試す・発表する流れを英語で体験。</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>Mini Presentation</h3>
-              <p>自分の言葉で伝える小さな発表にチャレンジ。</p>
-            </article>
-          </div>
+        <section class="experience-visual" aria-labelledby="experience-title">
+          <h2 id="experience-title" class="sr-only">体験できること</h2>
+          <img
+            class="experience-visual__design"
+            src="assets/experience-section.svg"
+            alt="体験できること。英語を使ったミッション、テーマ型アクティビティ、発表や交流を体験できます。"
+          />
         </section>
 
-        <section class="section schedule" aria-labelledby="schedule-title">
-          <p class="section-kicker">Schedule</p>
-          <h2 id="schedule-title">開催日程</h2>
+        <section id="schedule" class="section schedule schedule--overview" aria-labelledby="schedule-title">
+          <h2 id="schedule-title" class="sr-only">開催日程</h2>
+          <img
+            class="schedule__title-image"
+            src="assets/schedule-title.svg"
+            alt="開催日程"
+          />
           <div class="schedule-list" data-schedule-list></div>
         </section>
 
-        <section class="section detail" aria-labelledby="condition-title">
-          <p class="section-kicker">Entry</p>
-          <h2 id="condition-title">対象・参加条件</h2>
-          <dl class="info-list">
-            <div>
-              <dt>対象</dt>
-              <dd data-text="target"></dd>
-            </div>
-            <div>
-              <dt>持ち物</dt>
-              <dd data-text="belongings"></dd>
-            </div>
-            <div>
-              <dt>保護者</dt>
-              <dd data-text="guardian"></dd>
-            </div>
-          </dl>
+        <section class="entry-visual" aria-labelledby="condition-title">
+          <h2 id="condition-title" class="sr-only">対象・参加条件</h2>
+          <img
+            class="entry-visual__design"
+            src="assets/entry-section.svg"
+            alt="対象・参加条件"
+          />
         </section>
 
-        <section class="section price" aria-labelledby="price-title">
-          <p class="section-kicker">Price</p>
-          <h2 id="price-title">料金・参加概要</h2>
-          <div class="price-card">
-            <p class="price-card__label">参加費</p>
-            <p class="price-card__amount" data-text="price"></p>
-            <p data-text="priceNote"></p>
+        <section class="price-visual" aria-labelledby="price-title">
+          <h2 id="price-title" class="sr-only">料金・参加概要</h2>
+          <img
+            class="price-visual__design"
+            src="assets/price-section.png"
+            alt="料金・参加概要"
+          />
+        </section>
+
+        <section class="application-visual" aria-labelledby="application-title">
+          <h2 id="application-title" class="sr-only">お申し込みについて</h2>
+          <img
+            class="application-visual__design"
+            src="assets/application-section.png"
+            alt="お申し込みについて。各日程の予約するボタンからお申し込みください。"
+          />
+        </section>
+
+        <section id="application-schedule" class="section schedule schedule--repeat" aria-labelledby="application-schedule-title">
+          <h2 id="application-schedule-title" class="sr-only">開催日程</h2>
+          <img
+            class="schedule__title-image"
+            src="assets/application-schedule-title.svg"
+            alt="開催日程"
+          />
+          <div class="schedule-list" data-schedule-list></div>
+        </section>
+
+        <section id="form" class="footer-visual" aria-labelledby="footer-title">
+          <h2 id="footer-title" class="sr-only">JOURNEY フッター</h2>
+          <img
+            class="footer-visual__design"
+            src="assets/footer-section.svg"
+            alt="1DAY留学してみませんか。参加日を選んで申し込む。"
+          />
+          <a
+            class="footer-visual__hotspot"
+            href="#application-schedule"
+            aria-label="申込セクションへ移動"
+          ></a>
+          <div class="footer-info">
+            <a
+              class="footer-info__law"
+              href="https://note.com/preview/nb25952d91985?prev_access_key=61723f6a4f1e9aa1577785c83c7258d0"
+            >
+              特定商取引法に基づく表記
+            </a>
+            <address class="footer-info__address">
+              〒565-0855<br />
+              大阪府吹田市佐竹台１丁目２−１
+            </address>
+            <p class="footer-info__copyright">
+              ©Copyright English Bilingual Community JOURNEY
+            </p>
           </div>
-        </section>
-
-        <section class="section note" aria-labelledby="note-title">
-          <p class="section-kicker">Notes</p>
-          <h2 id="note-title">注意事項</h2>
-          <ul class="note-list">
-            <li>定員に達し次第、受付を終了します。</li>
-            <li>当日の内容は参加人数や年齢構成により一部変更になる場合があります。</li>
-            <li>体調不良の場合は無理をせず、事前にご連絡ください。</li>
-          </ul>
-        </section>
-
-        <section id="form" class="section final-cta" aria-labelledby="form-title">
-          <p class="section-kicker">Join Us</p>
-          <h2 id="form-title">英語を使う1日へ。</h2>
-          <p>参加希望日を選んで、JOURNEY OPEN DAYにお申し込みください。</p>
-          <a class="button" href="#form">参加日を選んで申し込む</a>
         </section>
       </article>
     </main>
-
-    <script src="script.js"></script>
+    <script src="script.js?v=20260507-observation-copy"></script>
   </body>
 </html>
