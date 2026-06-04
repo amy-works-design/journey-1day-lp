@@ -16,7 +16,7 @@ const LP_CONFIG = {
       subtitle: "オリジナル傘デザイン工房",
       category: "Creative Design Activity",
       description: "Design your own umbrella and explain your ideas in English.",
-      descriptionJa: "自分だけの傘をデザインし、色・形・こだわりを英語で伝えます。",
+      descriptionJa: "JOURNEYデザインスタジオへようこそ！自分だけのオリジナル傘作りに挑戦です！カラフルなペンやステッカー、スタンプを使って、好きな絵を自由に描こう！",
       condition: "Beginner OK",
       capacity: "5名",
       theme: "umbrella",
